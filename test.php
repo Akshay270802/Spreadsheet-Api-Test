@@ -121,7 +121,7 @@
     {
         {
             // Your API KEY
-            const API_KEY = "AIzaSyC9y92VHwOQFxDKovWExUfRT7upqeusSss";
+            const API_KEY = "<Your API key>";
             const filterBy = 'Category';
 
             const dataTable = null;
@@ -157,7 +157,7 @@
 
             function loadData() {
                 // Spreadsheet ID 
-                const spreadsheetId = '1HlBVTBEmxCyTq_N5igR1nhIEjt8AzaaqP-NaiwjVyzQ';
+                const spreadsheetId = '<Your Sheet ID>';
                 const range = "Sheet 1!A1:C7";
                 getPublicValues({
                     spreadsheetId,
